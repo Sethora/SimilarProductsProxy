@@ -41,24 +41,31 @@
 */
 
 module.exports = {
+  // product details
   service1: {
-    api: 'FIX_ME',
+    api: '/product/get',
     url: 'http://localhost:3001',
-    bundle: 'app.js',
+    bundle: 'bundle.js',
   },
+  // ratings and reviews
+  // change to 3002 and change endpoint to be /review/* and find bundle
   service2: {
     api: 'FIX_ME',
     url: 'http://localhost:3002',
     bundle: 'app.js',
   },
+  //similar products
   service3: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3003',
-    bundle: 'app.js',
+    api: '/api/products/:id/similar',
+    url: 'http://localhost:4444',
+    bundle: 'main.js',
   },
+  // explore this product
+  // code not present in github
   service4: {
     api: 'FIX_ME',
     url: 'http://localhost:3004',
     bundle: 'app.js',
   },
+  // add another for you may also like?? clone of similar products
 };
