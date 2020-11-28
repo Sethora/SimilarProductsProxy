@@ -42,30 +42,28 @@
 
 module.exports = {
   // product details
-  // code not present in github for updated api with :id
-  // service1: {
-  //   api: '/product/get',
-  //   url: 'http://localhost:3001',
-  //   bundle: 'bundle.js',
-  // },
-  // ratings and reviews
   service1: {
+    api: '/product/get',
+    url: 'http://54.234.84.102:3001',
+    bundle: 'bundle.js',
+  },
+  // ratings and reviews
+  service2: {
     api: '/products/:id/reviews/*',
-    url: 'http://localhost:3001',
+    url: 'http://18.224.62.145:3001',
     bundle: 'bundle.js'
   },
-  //similar products
-  service2: {
+  // similar products
+  service3: {
     api: '/products/:id/*',
-    url: 'http://localhost:4444',
+    url: 'http://13.57.250.145:4444',
     bundle: 'main.js'
   },
   // explore this product
-  // code not present in github
-  // service4: {
-  //   api: 'FIX_ME',
-  //   url: 'http://localhost:3004',
-  //   bundle: 'app.js',
-  // },
+  service4: {
+    api: ['/etp/images', '/etp/member/?memberId=*', '/etp/products/?products=*'],
+    url: 'http://3.15.186.151:2754',
+    bundle: 'bundle.js',
+  },
   // add another for you may also like?? clone of similar products
 };
