@@ -15,7 +15,7 @@ app.use('/bundles', router.bundles);
 app.use('/api', router.api);
 
 app.get('/*', (req, res) => {
-  res.sendFile('/Users/leahcardon/Desktop/HackReactor/Immersive/Front-End Capstone/SimilarProductsProxy/SimilarProductsProxy/public/index.html')
+  res.sendFile('./public/index.html')
 })
 
 module.exports = app;

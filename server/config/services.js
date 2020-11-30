@@ -50,7 +50,7 @@ module.exports = {
   // ratings and reviews
   service2: {
     api: '/products/:id/reviews/*',
-    url: 'http://18.224.62.145:3001',
+    url: 'http://3.16.79.102:3001',
     bundle: 'bundle.js'
   },
   // similar products
