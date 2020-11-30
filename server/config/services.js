@@ -44,25 +44,25 @@ module.exports = {
   // product details
   service1: {
     api: '/product/get',
-    url: 'http://54.234.84.102:3001',
+    url: 'http://54.234.84.102:3001/',
     bundle: 'bundle.js',
   },
   // ratings and reviews
   service2: {
     api: '/products/:id/reviews/*',
-    url: 'http://3.16.79.102:3001',
+    url: 'http://3.16.79.102:3001/',
     bundle: 'bundle.js'
   },
   // similar products
   service3: {
     api: '/products/:id/*',
-    url: 'http://13.57.250.145:4444',
+    url: 'http://13.57.250.145:4444/',
     bundle: 'main.js'
   },
   // explore this product
   service4: {
     api: ['/etp/images', '/etp/member/?memberId=*', '/etp/products/?products=*'],
-    url: 'http://3.15.186.151:2754',
+    url: 'http://3.15.186.151:2754/',
     bundle: 'bundle.js',
   },
   // add another for you may also like?? clone of similar products
