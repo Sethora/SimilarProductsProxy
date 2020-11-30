@@ -43,8 +43,8 @@
 module.exports = {
   // product details
   service1: {
-    api: '/product/get',
-    url: 'http://54.234.84.102:3001/',
+    api: ['/product'],
+    url: 'http://54.234.84.102:3100',
     bundle: 'bundle.js',
   },
   // ratings and reviews
